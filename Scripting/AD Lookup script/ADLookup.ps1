@@ -1,0 +1,1 @@
+Get-ADUser -filter {PasswordExpired -eq "true"} -properties PasswordLastSet, PasswordExpired | Sort-Object Name | Format-Table Name, PasswordLastSet, PasswordExpired

@@ -1,0 +1,1 @@
+powershell.exe -noexit -file ".\script.ps1"
